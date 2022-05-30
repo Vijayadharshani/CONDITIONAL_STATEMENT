@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+int a;
+printf("The input data: ");
+scanf("%d",&a);
+if(a%3==0)
+{
+printf("HI\t");
+}
+if(a%5==0)
+{
+printf("HELLO");
+}
+return 0;
+}
