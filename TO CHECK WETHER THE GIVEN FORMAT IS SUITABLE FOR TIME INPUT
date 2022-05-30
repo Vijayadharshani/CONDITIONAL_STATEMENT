@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+int hr,sec,min;
+printf("Enter the input: ");
+scanf("%d:%d:%d",&hr,&min,&sec);
+if(hr<24&&min<60&&sec<60)
+{
+printf("Valid");
+}
+else
+{
+printf("Invalid");
+}
+return 0;
+}
